@@ -1,0 +1,132 @@
+Script started on 2019-04-01 10:02:03+0530
+]0;tpc@CC2-27: ~[01;32mtpc@CC2-27[00m:[01;34m~[00m$ 
+]0;tpc@CC2-27: ~[01;32mtpc@CC2-27[00m:[01;34m~[00m$ 
+]0;tpc@CC2-27: ~[01;32mtpc@CC2-27[00m:[01;34m~[00m$ sftp cs17d45@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d45@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+examples.desktop    pal.py              prime.py            sayooj              
+sftp> 
+sftp> 
+sftp> lls
+ cec17d.18.03.19.txt	   ceccs17d25.18.03.19	 Downloads		 Music	    prime.py   SFTP	       Templates
+'cec17d22.18.03.19 .txt'   Desktop		 examples.desktop	 pal.py     prn        SFTP_Task       Videos
+ cec17d25.18.03.19.txt	   Documents		 Firefox_wallpaper.png	 Pictures   Public     SFTP_Task.txt
+sftp> 
+sftp> 
+sftp> get[K[K[Klls
+ cec17d.18.03.19.txt	   ceccs17d25.18.03.19	 Downloads		 Music	    prime.py   SFTP	       sk.txt
+'cec17d22.18.03.19 .txt'   Desktop		 examples.desktop	 pal.py     prn        SFTP_Task       Templates
+ cec17d25.18.03.19.txt	   Documents		 Firefox_wallpaper.png	 Pictures   Public     SFTP_Task.txt   Videos
+sftp> ls[K[Kput sk.txt
+Uploading sk.txt/ to /home/cs17d45/sk.txt
+sk.txt/ is not a regular file
+sftp> 
+sftp> put SFTP_TASK.TXT[K[K[Ktxt
+stat SFTP_TASK.txt: No such file or directory
+sftp> 
+sftp> 
+sftp> put Firefoi[Kc_[K[Kx_wallpaper.png
+Uploading Firefox_wallpaper.png to /home/cs17d45/Firefox_wallpaper.png
+Firefox_wallpaper.png                                                                                         0%    0     0.0KB/s   --:-- ETAFirefox_wallpaper.png                                                                                       100%   46KB   2.7MB/s   00:00    
+sftp> 
+sftp> 
+sftp> 
+sftp> ls
+Firefox_wallpaper.png  examples.desktop       pal.py                 prime.py               sayooj                 
+sftp> 
+sftp> 
+sftp> lls
+ cec17d.18.03.19.txt	   ceccs17d25.18.03.19	 Downloads		 Music	    prime.py   SFTP	       sk.txt
+'cec17d22.18.03.19 .txt'   Desktop		 examples.desktop	 pal.py     prn        SFTP_Task       Templates
+ cec17d25.18.03.19.txt	   Documents		 Firefox_wallpaper.png	 Pictures   Public     SFTP_Task.txt   Videos
+sftp> 
+sftp> 
+sftp> gety [K paL[KL[Kl.py
+Fetching /home/cs17d45/pal.py to pal.py
+/home/cs17d45/pal.py                                                                                          0%    0     0.0KB/s   --:-- ETA/home/cs17d45/pal.py                                                                                        100%  169   105.9KB/s   00:00    
+sftp> 
+sftp> 
+sftp> mkdir sk
+sftp> 
+sftp> 
+sftp> pe[Kwd
+Remote working directory: /home/cs17d45
+sftp> cd ..
+sftp> pwd
+Remote working directory: /home
+sftp> cd sk
+Couldn't stat remote file: No such file or directory
+sftp> 
+sftp> 
+sftp> 
+sftp> cd cs17d45
+sftp> cd sk
+sftp> 
+sftp> pwd
+Remote working directory: /home/cs17d45/sk
+sftp> v[K
+sftp> 
+sftp> 
+sftp> 
+sftp> 
+sftp> rm dir sk
+Couldn't remove directory: No such file or directory
+sftp> 
+sftp> 
+sftp> cd ..
+sftp> rmdir sk
+sftp> 
+sftp> 
+sftp> version
+SFTP protocol version 3
+sftp>  
+sftp> 
+sftp> 
+sftp> help
+Available commands:
+bye                                Quit sftp
+cd path                            Change remote directory to 'path'
+chgrp grp path                     Change group of file 'path' to 'grp'
+chmod mode path                    Change permissions of file 'path' to 'mode'
+chown own path                     Change owner of file 'path' to 'own'
+df [-hi] [path]                    Display statistics for current directory or
+                                   filesystem containing 'path'
+exit                               Quit sftp
+get [-afPpRr] remote [local]       Download file
+reget [-fPpRr] remote [local]      Resume download file
+reput [-fPpRr] [local] remote      Resume upload file
+help                               Display this help text
+lcd path                           Change local directory to 'path'
+lls [ls-options [path]]            Display local directory listing
+lmkdir path                        Create local directory
+ln [-s] oldpath newpath            Link remote file (-s for symlink)
+lpwd                               Print local working directory
+ls [-1afhlnrSt] [path]             Display remote directory listing
+lumask umask                       Set local umask to 'umask'
+mkdir path                         Create remote directory
+progress                           Toggle display of progress meter
+put [-afPpRr] local [remote]       Upload file
+pwd                                Display remote working directory
+quit                               Quit sftp
+rename oldpath newpath             Rename remote file
+rm path                            Delete remote file
+rmdir path                         Remove remote directory
+symlink oldpath newpath            Symlink remote file
+version                            Show SFTP version
+!command                           Execute 'command' in local shell
+!                                  Escape to local shell
+?                                  Synonym for help
+sftp> 
+sftp> 
+sftp> 
+sftp> exit
+]0;tpc@CC2-27: ~[01;32mtpc@CC2-27[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2019-04-01 10:08:15+0530
