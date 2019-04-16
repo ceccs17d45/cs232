@@ -25,15 +25,19 @@ sftp> get[K[K[Klls
  cec17d25.18.03.19.txt	   Documents		 Firefox_wallpaper.png	 Pictures   Public     SFTP_Task.txt   Videos
 sftp> ls[K[Kput sk.txt
 Uploading sk.txt/ to /home/cs17d45/sk.txt
-sk.txt/ is not a regular file
+sk.txt/ is not a regular file
+
 sftp> 
 sftp> put SFTP_TASK.TXT[K[K[Ktxt
-stat SFTP_TASK.txt: No such file or directory
+stat SFTP_TASK.txt: No such file or directory
+
 sftp> 
 sftp> 
 sftp> put Firefoi[Kc_[K[Kx_wallpaper.png
 Uploading Firefox_wallpaper.png to /home/cs17d45/Firefox_wallpaper.png
-Firefox_wallpaper.png                                                                                         0%    0     0.0KB/s   --:-- ETAFirefox_wallpaper.png                                                                                       100%   46KB   2.7MB/s   00:00    
+
+Firefox_wallpaper.png                                                                                         0%    0     0.0KB/s   --:-- ETA
+Firefox_wallpaper.png                                                                                       100%   46KB   2.7MB/s   00:00    
 sftp> 
 sftp> 
 sftp> 
@@ -49,7 +53,9 @@ sftp>
 sftp> 
 sftp> gety [K paL[KL[Kl.py
 Fetching /home/cs17d45/pal.py to pal.py
-/home/cs17d45/pal.py                                                                                          0%    0     0.0KB/s   --:-- ETA/home/cs17d45/pal.py                                                                                        100%  169   105.9KB/s   00:00    
+
+/home/cs17d45/pal.py                                                                                          0%    0     0.0KB/s   --:-- ETA
+/home/cs17d45/pal.py                                                                                        100%  169   105.9KB/s   00:00    
 sftp> 
 sftp> 
 sftp> mkdir sk
@@ -61,7 +67,8 @@ sftp> cd ..
 sftp> pwd
 Remote working directory: /home
 sftp> cd sk
-Couldn't stat remote file: No such file or directory
+Couldn't stat remote file: No such file or directory
+
 sftp> 
 sftp> 
 sftp> 
@@ -76,7 +83,8 @@ sftp>
 sftp> 
 sftp> 
 sftp> rm dir sk
-Couldn't remove directory: No such file or directory
+Couldn't remove directory: No such file or directory
+
 sftp> 
 sftp> 
 sftp> cd ..
