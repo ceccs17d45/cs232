@@ -1,0 +1,36 @@
+Script started on 2019-04-16 21:15:02+0530
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~/Desktop/Perl[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~/Desktop/Perl[00m$ exitperl add_two_num.pl[6Phello.pl-v[K
+
+This is perl 5, version 26, subversion 1 (v5.26.1) built for x86_64-linux-gnu-thread-multi
+(with 63 registered patches, see perl -V for more detail)
+
+Copyright 1987-2017, Larry Wall
+
+Perl may be copied only under the terms of either the Artistic License or the
+GNU General Public License, which may be found in the Perl 5 source kit.
+
+Complete documentation for Perl, including FAQ lists, should be found on
+this system using "man perl" or "perldoc perl".  If you have access to the
+Internet, point your browser at http://www.perl.org/, the Perl Home Page.
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~/Desktop/Perl[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~/Desktop/Perl[00m$ 
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~/Desktop/Perl[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~/Desktop/Perl[00m$ 
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~/Desktop/Perl[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~/Desktop/Perl[00m$ perl -v[3Pexitperl add_two_num.pl[6Phello.pl
+Hello world
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~/Desktop/Perl[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~/Desktop/Perl[00m$ perl hello.pl-v[K[K[K[K[K[K[K[K
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~/Desktop/Perl[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~/Desktop/Perl[00m$ 
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~/Desktop/Perl[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~/Desktop/Perl[00m$ perl add_two_num.pl
+Enter two numbers 
+5
+6
+Sum = 11
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~/Desktop/Perl[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~/Desktop/Perl[00m$ 
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~/Desktop/Perl[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~/Desktop/Perl[00m$ 
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~/Desktop/Perl[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~/Desktop/Perl[00m$ perl factorial.pl
+Enter a number: 6
+Factorial is 720
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~/Desktop/Perl[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~/Desktop/Perl[00m$ 
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~/Desktop/Perl[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~/Desktop/Perl[00m$ exit
+exit
+
+Script done on 2019-04-16 21:18:20+0530
