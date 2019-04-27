@@ -1,0 +1,232 @@
+Script started on 2019-04-27 13:23:19+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ ifconfig
+enp2s0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 192.168.1.28  netmask 255.255.255.0  broadcast 192.168.1.255
+        ether 2c:fd:a1:2c:5a:76  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 5841  bytes 622415 (622.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 5841  bytes 622415 (622.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp3s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.28  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::940d:f60:8e94:7045  prefixlen 64  scopeid 0x20<link>
+        ether e8:2a:44:3b:40:c4  txqueuelen 1000  (Ethernet)
+        RX packets 216536  bytes 291271821 (291.2 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 121024  bytes 14689099 (14.6 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ ifconfig eth0 enp2s0
+enp2s0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 192.168.1.28  netmask 255.255.255.0  broadcast 192.168.1.255
+        ether 2c:fd:a1:2c:5a:76  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ sudo ifconfig enp2s0 up
+[sudo] password for sayooj_koroth: 
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ sudo ifconfig enp2s0 192.168.1.28
+ 
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ sudo ifconfig enp2s0 netmask 255.255.255.0255.255.255.0
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ sudo ifconfig enp2s0 192.168.1.28  netmask 255.255.255.0  broadcast 192.168.1.255
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ route
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         _gateway        0.0.0.0         UG    600    0        0 wlp3s0
+link-local      0.0.0.0         255.255.0.0     U     1000   0        0 wlp3s0
+192.168.1.0     0.0.0.0         255.255.255.0   U     0      0        0 enp2s0
+192.168.1.0     0.0.0.0         255.255.255.0   U     600    0        0 wlp3s0
+ 
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ route add -net 192.56.76.0 netmask 255.255.255.0 dev eth0[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kinet 192.168.1.28  netmask 255.255.255.0 dev enp2s0
+inet: Host name lookup failure
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ route add inet 192.168.1.28  netmask 255.255.255.0 dev enp2s0[1@-
+route: invalid option -- 'i'
+route: invalid option -- 't'
+Usage: route [-nNvee] [-FC] [<AF>]           List kernel routing tables
+       route [-v] [-FC] {add|del|flush} ...  Modify routing table for AF.
+
+       route {-h|--help} [<AF>]              Detailed usage syntax for specified AF.
+       route {-V|--version}                  Display version/author and exit.
+
+        -v, --verbose            be verbose
+        -n, --numeric            don't resolve names
+        -e, --extend             display other/more information
+        -F, --fib                display Forwarding Information Base (default)
+        -C, --cache              display routing cache instead of FIB
+
+  <AF>=Use -4, -6, '-A <af>' or '--<af>'; default: inet
+  List of possible address families (which support routing):
+    inet (DARPA Internet) inet6 (IPv6) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) ipx (Novell IPX) ddp (Appletalk DDP) 
+    x25 (CCITT X.25) 
+
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ ip route show
+default via 192.168.1.1 dev wlp3s0 proto dhcp metric 600 
+169.254.0.0/16 dev wlp3s0 scope link metric 1000 
+192.168.1.0/24 dev enp2s0 proto kernel scope link src 192.168.1.28 linkdown 
+192.168.1.0/24 dev wlp3s0 proto kernel scope link src 192.168.1.28 metric 600 
+
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ sudo route add default gw 192.168.1.28
+enp2s0
+
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ route -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         192.168.1.28    0.0.0.0         UG    0      0        0 enp2s0
+0.0.0.0         192.168.1.1     0.0.0.0         UG    600    0        0 wlp3s0
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 wlp3s0
+192.168.1.0     0.0.0.0         255.255.255.0   U     0      0        0 enp2s0
+192.168.1.0     0.0.0.0         255.255.255.0   U     600    0        0 wlp3s0
+
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ ping
+Usage: ping [-aAbBdDfhLnOqrRUvV64] [-c count] [-i interval] [-I interface]
+            [-m mark] [-M pmtudisc_option] [-l preload] [-p pattern] [-Q tos]
+            [-s packetsize] [-S sndbuf] [-t ttl] [-T timestamp_option]
+            [-w deadline] [-W timeout] [hop1 ...] destination
+Usage: ping -6 [-aAbBdDfhLnOqrRUvV] [-c count] [-i interval] [-I interface]
+             [-l preload] [-m mark] [-M pmtudisc_option]
+             [-N nodeinfo_option] [-p pattern] [-Q tclass] [-s packetsize]
+             [-S sndbuf] [-t ttl] [-T timestamp_option] [-w deadline]
+             [-W timeout] destination
+
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ ping 192.168.1.28
+PING 192.168.1.28 (192.168.1.28) 56(84) bytes of data.
+64 bytes from 192.168.1.28: icmp_seq=1 ttl=64 time=0.058 ms
+64 bytes from 192.168.1.28: icmp_seq=2 ttl=64 time=0.079 ms
+64 bytes from 192.168.1.28: icmp_seq=3 ttl=64 time=0.080 ms
+64 bytes from 192.168.1.28: icmp_seq=4 ttl=64 time=0.059 ms
+64 bytes from 192.168.1.28: icmp_seq=5 ttl=64 time=0.061 ms
+64 bytes from 192.168.1.28: icmp_seq=6 ttl=64 time=0.062 ms
+64 bytes from 192.168.1.28: icmp_seq=7 ttl=64 time=0.084 ms
+64 bytes from 192.168.1.28: icmp_seq=8 ttl=64 time=0.046 ms
+64 bytes from 192.168.1.28: icmp_seq=9 ttl=64 time=0.128 ms
+64 bytes from 192.168.1.28: icmp_seq=10 ttl=64 time=0.066 ms
+64 bytes from 192.168.1.28: icmp_seq=11 ttl=64 time=0.072 ms
+64 bytes from 192.168.1.28: icmp_seq=12 ttl=64 time=0.034 ms
+64 bytes from 192.168.1.28: icmp_seq=13 ttl=64 time=0.059 ms
+64 bytes from 192.168.1.28: icmp_seq=14 ttl=64 time=0.061 ms
+64 bytes from 192.168.1.28: icmp_seq=15 ttl=64 time=0.060 ms
+64 bytes from 192.168.1.28: icmp_seq=16 ttl=64 time=0.064 ms
+64 bytes from 192.168.1.28: icmp_seq=17 ttl=64 time=0.061 ms
+64 bytes from 192.168.1.28: icmp_seq=18 ttl=64 time=0.068 ms
+64 bytes from 192.168.1.28: icmp_seq=19 ttl=64 time=0.072 ms
+64 bytes from 192.168.1.28: icmp_seq=20 ttl=64 time=0.060 ms
+64 bytes from 192.168.1.28: icmp_seq=21 ttl=64 time=0.057 ms
+64 bytes from 192.168.1.28: icmp_seq=22 ttl=64 time=0.023 ms
+64 bytes from 192.168.1.28: icmp_seq=23 ttl=64 time=0.054 ms
+64 bytes from 192.168.1.28: icmp_seq=24 ttl=64 time=0.055 ms
+64 bytes from 192.168.1.28: icmp_seq=25 ttl=64 time=0.060 ms
+64 bytes from 192.168.1.28: icmp_seq=26 ttl=64 time=0.051 ms
+64 bytes from 192.168.1.28: icmp_seq=27 ttl=64 time=0.054 ms
+64 bytes from 192.168.1.28: icmp_seq=28 ttl=64 time=0.063 ms
+64 bytes from 192.168.1.28: icmp_seq=29 ttl=64 time=0.060 ms
+64 bytes from 192.168.1.28: icmp_seq=30 ttl=64 time=0.038 ms
+64 bytes from 192.168.1.28: icmp_seq=31 ttl=64 time=0.064 ms
+64 bytes from 192.168.1.28: icmp_seq=32 ttl=64 time=0.058 ms
+64 bytes from 192.168.1.28: icmp_seq=33 ttl=64 time=0.066 ms
+64 bytes from 192.168.1.28: icmp_seq=34 ttl=64 time=0.055 ms
+64 bytes from 192.168.1.28: icmp_seq=35 ttl=64 time=0.056 ms
+64 bytes from 192.168.1.28: icmp_seq=36 ttl=64 time=0.083 ms
+64 bytes from 192.168.1.28: icmp_seq=37 ttl=64 time=0.057 ms
+64 bytes from 192.168.1.28: icmp_seq=38 ttl=64 time=0.055 ms
+64 bytes from 192.168.1.28: icmp_seq=39 ttl=64 time=0.087 ms
+64 bytes from 192.168.1.28: icmp_seq=40 ttl=64 time=0.056 ms
+64 bytes from 192.168.1.28: icmp_seq=41 ttl=64 time=0.084 ms
+64 bytes from 192.168.1.28: icmp_seq=42 ttl=64 time=0.065 ms
+64 bytes from 192.168.1.28: icmp_seq=43 ttl=64 time=0.074 ms
+64 bytes from 192.168.1.28: icmp_seq=44 ttl=64 time=0.086 ms
+64 bytes from 192.168.1.28: icmp_seq=45 ttl=64 time=0.048 ms
+64 bytes from 192.168.1.28: icmp_seq=46 ttl=64 time=0.058 ms
+64 bytes from 192.168.1.28: icmp_seq=47 ttl=64 time=0.040 ms
+64 bytes from 192.168.1.28: icmp_seq=48 ttl=64 time=0.061 ms
+64 bytes from 192.168.1.28: icmp_seq=49 ttl=64 time=0.060 ms
+64 bytes from 192.168.1.28: icmp_seq=50 ttl=64 time=0.060 ms
+64 bytes from 192.168.1.28: icmp_seq=51 ttl=64 time=0.106 ms
+^C
+--- 192.168.1.28 ping statistics ---
+51 packets transmitted, 51 received, 0% packet loss, time 130ms
+rtt min/avg/max/mdev = 0.023/0.063/0.128/0.017 ms
+
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ sudo route delete default gw 192.168.1.28 enp2s0
+ 
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ route -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         192.168.1.1     0.0.0.0         UG    20600  0        0 wlp3s0
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 wlp3s0
+192.168.1.0     0.0.0.0         255.255.255.0   U     0      0        0 enp2s0
+192.168.1.0     0.0.0.0         255.255.255.0   U     600    0        0 wlp3s0
+
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ gedit /etc/resolv.conf
+
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ cat /etc/resolv.conf
+# This file is managed by man:systemd-resolved(8). Do not edit.
+#
+# This is a dynamic resolv.conf file for connecting local clients to the
+# internal DNS stub resolver of systemd-resolved. This file lists all
+# configured search domains.
+#
+# Run "resolvectl status" to see details about the uplink DNS servers
+# currently in use.
+#
+# Third party programs must not access this file directly, but only through the
+# symlink at /etc/resolv.conf. To manage man:resolv.conf(5) in a different way,
+# replace this symlink by a static file or a different symlink.
+#
+# See man:systemd-resolved.service(8) for details about the supported modes of
+# operation for /etc/resolv.conf.
+
+nameserver 127.0.0.53
+options edns0
+search asianetindia.com
+
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ ping google.com
+PING google.com (172.217.163.46) 56(84) bytes of data.
+64 bytes from maa05s01-in-f14.1e100.net (172.217.163.46): icmp_seq=1 ttl=55 time=31.3 ms
+64 bytes from maa05s01-in-f14.1e100.net (172.217.163.46): icmp_seq=2 ttl=55 time=33.5 ms
+64 bytes from maa05s01-in-f14.1e100.net (172.217.163.46): icmp_seq=3 ttl=55 time=32.9 ms
+64 bytes from maa05s01-in-f14.1e100.net (172.217.163.46): icmp_seq=4 ttl=55 time=34.0 ms
+64 bytes from maa05s01-in-f14.1e100.net (172.217.163.46): icmp_seq=5 ttl=55 time=31.9 ms
+64 bytes from maa05s01-in-f14.1e100.net (172.217.163.46): icmp_seq=6 ttl=55 time=31.7 ms
+64 bytes from maa05s01-in-f14.1e100.net (172.217.163.46): icmp_seq=7 ttl=55 time=32.9 ms
+64 bytes from maa05s01-in-f14.1e100.net (172.217.163.46): icmp_seq=8 ttl=55 time=30.4 ms
+64 bytes from maa05s01-in-f14.1e100.net (172.217.163.46): icmp_seq=9 ttl=55 time=31.4 ms
+64 bytes from maa05s01-in-f14.1e100.net (172.217.163.46): icmp_seq=10 ttl=55 time=32.2 ms
+64 bytes from maa05s01-in-f14.1e100.net (172.217.163.46): icmp_seq=11 ttl=55 time=31.8 ms
+^C
+--- google.com ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 29ms
+rtt min/avg/max/mdev = 30.381/32.191/34.013/1.041 ms
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ 
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ 
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ 
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2019-04-27 13:50:01+05:30 [COMMAND_EXIT_CODE="0"]
