@@ -27,7 +27,7 @@ wlp3s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         TX packets 121024  bytes 14689099 (14.6 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
-]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ ifconfig eth0 enp2s0
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ ifconfig enp2s0
 enp2s0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
         inet 192.168.1.28  netmask 255.255.255.0  broadcast 192.168.1.255
         ether 2c:fd:a1:2c:5a:76  txqueuelen 1000  (Ethernet)
