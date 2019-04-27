@@ -1,0 +1,184 @@
+Script started on 2019-04-27 19:38:17+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ scp linux.jpeg cs17d45@14.139.189.217:/home/cs17d45
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d45@14.139.189.217's password: 
+
+linux.jpeg                                      0%    0     0.0KB/s   --:-- ETA
+linux.jpeg                                    100% 5982    51.7KB/s   00:00    
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ scp -v linux.jpeg cs17d45@14.139.189.217:/home/cs17d45
+Executing: program /usr/bin/ssh host 14.139.189.217, user cs17d45, command scp -v -t /home/cs17d45
+OpenSSH_7.9p1 Ubuntu-10, OpenSSL 1.1.1b  26 Feb 2019
+
+debug1: Reading configuration data /etc/ssh/ssh_config
+
+debug1: /etc/ssh/ssh_config line 19: Applying options for *
+
+debug1: Connecting to 14.139.189.217 [14.139.189.217] port 22.
+
+debug1: Connection established.
+
+debug1: identity file /home/sayooj_koroth/.ssh/id_rsa type -1
+
+debug1: identity file /home/sayooj_koroth/.ssh/id_rsa-cert type -1
+
+debug1: identity file /home/sayooj_koroth/.ssh/id_dsa type -1
+
+debug1: identity file /home/sayooj_koroth/.ssh/id_dsa-cert type -1
+
+debug1: identity file /home/sayooj_koroth/.ssh/id_ecdsa type -1
+
+debug1: identity file /home/sayooj_koroth/.ssh/id_ecdsa-cert type -1
+
+debug1: identity file /home/sayooj_koroth/.ssh/id_ed25519 type -1
+
+debug1: identity file /home/sayooj_koroth/.ssh/id_ed25519-cert type -1
+
+debug1: identity file /home/sayooj_koroth/.ssh/id_xmss type -1
+
+debug1: identity file /home/sayooj_koroth/.ssh/id_xmss-cert type -1
+
+debug1: Local version string SSH-2.0-OpenSSH_7.9p1 Ubuntu-10
+
+debug1: Remote protocol version 2.0, remote software version OpenSSH_7.2p2 Ubuntu-4ubuntu2.8
+
+debug1: match: OpenSSH_7.2p2 Ubuntu-4ubuntu2.8 pat OpenSSH_7.0*,OpenSSH_7.1*,OpenSSH_7.2*,OpenSSH_7.3*,OpenSSH_7.4*,OpenSSH_7.5*,OpenSSH_7.6*,OpenSSH_7.7* compat 0x04000002
+
+debug1: Authenticating to 14.139.189.217:22 as 'cs17d45'
+
+debug1: SSH2_MSG_KEXINIT sent
+
+debug1: SSH2_MSG_KEXINIT received
+
+debug1: kex: algorithm: curve25519-sha256@libssh.org
+
+debug1: kex: host key algorithm: ecdsa-sha2-nistp256
+
+debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+
+debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+
+debug1: Server host key: ecdsa-sha2-nistp256 SHA256:pkLWQEXAwg4Zdh5CXNYydUTPcU7dwDFxyzJnqJ01m/s
+
+debug1: Host '14.139.189.217' is known and matches the ECDSA host key.
+
+debug1: Found key in /home/sayooj_koroth/.ssh/known_hosts:1
+
+debug1: rekey after 134217728 blocks
+
+debug1: SSH2_MSG_NEWKEYS sent
+
+debug1: expecting SSH2_MSG_NEWKEYS
+
+debug1: SSH2_MSG_NEWKEYS received
+
+debug1: rekey after 134217728 blocks
+
+debug1: Will attempt key: /home/sayooj_koroth/.ssh/id_rsa 
+
+debug1: Will attempt key: /home/sayooj_koroth/.ssh/id_dsa 
+
+debug1: Will attempt key: /home/sayooj_koroth/.ssh/id_ecdsa 
+
+debug1: Will attempt key: /home/sayooj_koroth/.ssh/id_ed25519 
+
+debug1: Will attempt key: /home/sayooj_koroth/.ssh/id_xmss 
+
+debug1: SSH2_MSG_EXT_INFO received
+
+debug1: kex_input_ext_info: server-sig-algs=<rsa-sha2-256,rsa-sha2-512>
+
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+debug1: Authentications that can continue: publickey,password
+
+debug1: Next authentication method: publickey
+
+debug1: Trying private key: /home/sayooj_koroth/.ssh/id_rsa
+
+debug1: Trying private key: /home/sayooj_koroth/.ssh/id_dsa
+
+debug1: Trying private key: /home/sayooj_koroth/.ssh/id_ecdsa
+
+debug1: Trying private key: /home/sayooj_koroth/.ssh/id_ed25519
+
+debug1: Trying private key: /home/sayooj_koroth/.ssh/id_xmss
+
+debug1: Next authentication method: password
+
+cs17d45@14.139.189.217's password: 
+debug1: Authentication succeeded (password).
+
+Authenticated to 14.139.189.217 ([14.139.189.217]:22).
+
+debug1: channel 0: new [client-session]
+
+debug1: Requesting no-more-sessions@openssh.com
+
+debug1: Entering interactive session.
+
+debug1: pledge: network
+
+debug1: client_input_global_request: rtype hostkeys-00@openssh.com want_reply 0
+
+debug1: Sending environment.
+
+debug1: Sending env LANG = en_IN
+
+debug1: Sending command: scp -v -t /home/cs17d45
+
+Sending file modes: C0664 5982 linux.jpeg
+Sink: C0664 5982 linux.jpeg
+
+linux.jpeg                                      0%    0     0.0KB/s   --:-- ETA
+linux.jpeg                                    100% 5982    50.8KB/s   00:00    
+debug1: client_input_channel_req: channel 0 rtype exit-status reply 0
+
+debug1: channel 0: free: client-session, nchannels 1
+
+debug1: fd 0 clearing O_NONBLOCK
+
+Transferred: sent 7976, received 2728 bytes, in 0.7 seconds
+
+Bytes per second: sent 11532.1, received 3944.3
+
+debug1: Exit status 0
+ 
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ scp -p linux.jpeg cs17d45@14.139.189.217:/home/cs17d45
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d45@14.139.189.217's password: 
+
+linux.jpeg                                      0%    0     0.0KB/s   --:-- ETA
+linux.jpeg                                    100% 5982    62.8KB/s   00:00    
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ ls
+[0m[01;34mcs17d45@14.139.189.217[0m  [01;31mlinux-4.17-rc2.tar.gz[0m  [01;34mPublic[0m
+[01;34mcs17d45@14.139.217[0m      [01;34mlinux-5.0.10[0m           rsync.txt
+[01;34mDesktop[0m                 [01;31mlinux-5.0.10.tar[0m       scp.txt
+[01;34mDocuments[0m               [01;35mlinux.jpeg[0m             ssh.txt
+[01;34mDownloads[0m               ls.txt                 [01;34mTASK-1_Linux_commands[0m
+[01;34mKernel_compilation[0m      [01;34mMusic[0m                  [01;34mTemplates[0m
+Kernel_compilation.txt  [01;34mnetworking[0m             [01;34mtest[0m
+LAMP_stack.txt          [01;34mnew[0m                    [01;34mVideos[0m
+[01;34mlinux-4.17-rc2[0m          [01;34mPictures[0m
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2019-04-27 19:51:33+05:30 [COMMAND_EXIT_CODE="1"]

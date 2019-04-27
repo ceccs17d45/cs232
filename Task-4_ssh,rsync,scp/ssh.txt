@@ -1,0 +1,56 @@
+Script started on 2019-04-08 09:54:34+0530
+]0;tpc@CC2-27: ~[01;32mtpc@CC2-27[00m:[01;34m~[00m$ ssh cs17d45@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d45@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+23 packages can be updated.
+0 updates are security updates.
+
+*** System restart required ***
+Last login: Mon Apr  8 09:53:46 2019 from 192.168.0.150
+
+
+$ ls
+Firefox_wallpaper.png  examples.desktop  newfile.dat  pal.py  prime.py	sayooj	sk
+
+
+$ rmdir sk
+rmdir: failed to remove 'sk': Directory not empty
+
+
+$ rm pal.py
+$ 
+$ ls
+Firefox_wallpaper.png  examples.desktop  newfile.dat  prime.py	sayooj	sk
+$ 
+$ touch new.dat  at   txt
+$ 
+$ ls
+Firefox_wallpaper.png  examples.desktop  new.txt  newfile.dat  prime.py  sayooj  sk
+$ 
+$ rm newfile.dat
+$ 
+$ ls
+Firefox_wallpaper.png  examples.desktop  new.txt  prime.py  sayooj  sk
+$ 
+$ 
+$ exit
+Connection to 192.168.0.30 closed.
+
+]0;tpc@CC2-27: ~[01;32mtpc@CC2-27[00m:[01;34m~[00m$ ls
+ [0m[01;34mcs232-master[0m       [01;35mFirefox_wallpaper.png[0m    linux-4.20.12.tar.xz.1   [01;34mperl_tests[0m   SFTP        Task-3_Networking_task.txt   [01;34mVideos[0m
+ [01;34mDesktop[0m            ifconfig.txt             [01;34mMusic[0m                    [01;34mPictures[0m     SFTP_Task   task-4.txt
+ [01;34mDocuments[0m          Kernel_compilation.txt   [01;34mnew[0m                      prime.py     [01;34msk.txt[0m      Task-4.txt
+ [01;34mDownloads[0m          [01;31mlinux-4.20.12.tar[0m        pal.py                   [34;42mprn[0m          ssh        'Task-5_(SFTP).txt'
+ examples.desktop   [01;31mlinux-4.20.12.tar.xz[0m     perl_test                [01;34mPublic[0m       ssh.txt     [01;34mTemplates[0m
+
+]0;tpc@CC2-27: ~[01;32mtpc@CC2-27[00m:[01;34m~[00m$ exit
+
+Script done on 2019-04-08 10:52:29+0530

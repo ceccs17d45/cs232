@@ -1,0 +1,31 @@
+Script started on 2019-04-27 19:09:23+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ rsync -avzh test/ cs17d45@14.139.189.217 
+
+sending incremental file list
+./
+file1
+file2
+file{1...100}
+
+sent 244 bytes  received 76 bytes  640.00 bytes/sec
+total size is 0  speedup is 0.00
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$  rsync -avzh cs17d45@14.139.189.217:/home/cs17d45/myfile
+.
+             |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d45@14.139.189.217's password: 
+receiving incremental file list
+drwxr-xr-x          4.10K 2019/04/27 19:25:19 myfile
+-rw-r--r--             32 2019/04/27 19:25:47 myfile/cat.txt
+
+sent 25 bytes  received 101 bytes  16.80 bytes/sec
+total size is 32  speedup is 0.25
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2019-04-27 19:28:03+05:30 [COMMAND_EXIT_CODE="0"]
