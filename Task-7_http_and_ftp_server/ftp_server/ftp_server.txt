@@ -1,0 +1,119 @@
+Script started on 2019-05-06 18:08:01+05:30 
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ sudo apt-get install vsftpd
+[sudo] password for sayooj_koroth: 
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following NEW packages will be installed:
+  vsftpd
+0 upgraded, 1 newly installed, 0 to remove and 23 not upgraded.
+Need to get 115 kB of archives.
+After this operation, 338 kB of additional disk space will be used.
+
+0% [Working]
+0% [Waiting for headers]
+                        
+Get:1 http://in.archive.ubuntu.com/ubuntu disco/main amd64 vsftpd amd64 3.0.3-12 [115 kB]
+
+2% [1 vsftpd 2,613 B/115 kB 2%]
+58% [1 vsftpd 83.7 kB/115 kB 73%]
+                                 
+100% [Working]
+              
+Fetched 115 kB in 1s (98.9 kB/s)
+Preconfiguring packages ...
+Selecting previously unselected package vsftpd.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 136568 files and directories currently installed.)
+Preparing to unpack .../vsftpd_3.0.3-12_amd64.deb ...
+Unpacking vsftpd (3.0.3-12) ...
+Setting up vsftpd (3.0.3-12) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/vsftpd.service → /lib/systemd/system/vsftpd.service.
+[vsftpd.conf:1] Line references path below legacy directory /var/run/, updating /var/run/vsftpd/empty → /run/vsftpd/empty; please update the tmpfiles.d/ drop-in file accordingly.
+Processing triggers for man-db (2.8.5-2) ...
+Processing triggers for systemd (240-6ubuntu5) ...
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ ftp localhost
+Connected to localhost.
+220 (vsFTPd 3.0.3)
+Name (localhost:sayooj_koroth): 
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> pwd
+257 "/home/sayooj_koroth" is the current directory
+ftp> dir
+200 PORT command successful. Consider using PASV.
+150 Here comes the directory listing.
+drwxr-xr-x    2 1000     1000         4096 May 06 00:48 Desktop
+drwxr-xr-x    2 1000     1000         4096 May 06 00:48 Documents
+drwxr-xr-x    2 1000     1000         4096 May 05 19:21 Downloads
+drwxr-xr-x    2 1000     1000         4096 May 06 00:48 Music
+drwxr-xr-x    2 1000     1000         4096 May 06 00:48 Pictures
+drwxr-xr-x    2 1000     1000         4096 May 06 00:48 Public
+drwxr-xr-x    2 1000     1000         4096 May 06 18:01 S1
+drwxr-xr-x    2 1000     1000         4096 May 06 18:01 S2
+drwxr-xr-x    2 1000     1000         4096 May 06 00:48 Templates
+drwxr-xr-x    2 1000     1000         4096 May 06 00:48 Videos
+-rw-r--r--    1 1000     1000            0 May 06 18:08 ftp_server.txt
+-rw-r--r--    1 1000     1000        16384 May 06 18:05 gpa.txt
+drwxr-xr-x    2 1000     1000         4096 May 06 17:57 student_details
+226 Directory send OK. 
+ftp> cd S1
+250 Directory successfully changed.
+ftp> pwd
+257 "/home/sayooj_koroth/S1" is the current directory
+ftp> cd ..
+250 Directory successfully changed.
+ftp> exit
+221 Goodbye.
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2019-05-06 18:16:55+05:30 [COMMAND_EXIT_CODE="0"]
