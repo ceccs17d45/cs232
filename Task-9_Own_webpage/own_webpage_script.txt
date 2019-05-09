@@ -1,0 +1,27 @@
+Script started on 2019-05-06 23:42:57+05:30  
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ sftp cs17d45@14.139.189.217
+The authenticity of host '14.139.189.217 (14.139.189.217)' can't be established.
+ECDSA key fingerprint is SHA256:pkLWQEXAwg4Zdh5CXNYydUTPcU7dwDFxyzJnqJ01m/s.
+Are you sure you want to continue connecting (yes/no)? y
+Please type 'yes' or 'no': yes
+Warning: Permanently added '14.139.189.217' (ECDSA) to the list of known hosts.
+
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d45@14.139.189.217's password: 
+Connected to cs17d45@14.139.189.217.
+sftp> put /home/sayooj_koroth/Downloads/index.html
+Uploading /home/sayooj_koroth/Downloads/index.html to /home/cs17d45/index.html
+
+/home/sayooj_koroth/Downloads/index.html        0%    0     0.0KB/s   --:-- ETA
+/home/sayooj_koroth/Downloads/index.html      100% 4172    42.3KB/s   00:00    
+sftp> exit
+
+]0;sayooj_koroth@sayoojkoroth-X542UQR: ~[01;32msayooj_koroth@sayoojkoroth-X542UQR[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2019-05-06 23:45:43+05:30 
