@@ -15,4 +15,5 @@ cd ..
 rmdir sk
 version
 help
+exit
 
