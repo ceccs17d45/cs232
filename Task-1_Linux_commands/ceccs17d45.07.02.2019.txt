@@ -1,12 +1,14 @@
 Script started on Thursday 14 February 2019 03:20:34 PM IST
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ ls
-abc.txt                    [0m[01;34mDesktop[0m           h.c          [01;34mPublic[0m
-[01;32ma.out[0m                      [01;34mDocuments[0m         jithin.c     [01;32ms[0m
-bcd.txt                    [01;34mDownloads[0m         mergesort.c  s.c
-binser.c                   dqueue.c          [01;34mMusic[0m        selsort.c
-bubblesort.c               examples.desktop  new.txt      [01;34mTemplates[0m
-ceccs17d45.07.02.2019.txt  file1.dat         numbers.txt  [01;34mVideos[0m
-ceccs17d45.14.02.2019.txt  [01;32mh[0m                 [01;34mPictures[0m
+abc.txt                       Desktop             h.c             Public
+a.outDocuments                jithin.c            mergesort.c     s.c
+bcd.txt                       Downloads           Music           Templates
+binser.c                      dqueue.c            selsort.c
+bubblesort.c                  examples.desktop    new.txt      
+ceccs17d45.07.02.2019.txt     file1.dat           numbers.txt  
+ceccs17d45.14.02.2019.txt     Pictures            Videos 
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ ls -l
 total 128
 -rw-rw-r-- 1 cec-lab1 cec-lab1    0 Feb 14 15:13 abc.txt
@@ -36,6 +38,7 @@ drwxr-xr-x 2 cec-lab1 cec-lab1 4096 Feb 12  2016 [01;34mPublic[0m
 -rw-rw-r-- 1 cec-lab1 cec-lab1  518 Sep 26 13:56 selsort.c
 drwxr-xr-x 2 cec-lab1 cec-lab1 4096 Feb 12  2016 [01;34mTemplates[0m
 drwxr-xr-x 2 cec-lab1 cec-lab1 4096 Feb 12  2016 [01;34mVideos[0m
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ ls -lt
 total 128
 -rw-rw-r-- 1 cec-lab1 cec-lab1    0 Feb 14 15:20 ceccs17d45.07.02.2019.txt
@@ -65,6 +68,7 @@ drwxr-xr-x 2 cec-lab1 cec-lab1 4096 Feb 12  2016 [01;34mDesktop[0m
 -rwxrwxr-x 1 cec-lab1 cec-lab1 8600 Feb 11  2016 [01;32mh[0m
 -rw-rw-r-- 1 cec-lab1 cec-lab1   51 Feb 11  2016 h.c
 -rw-r--r-- 1 cec-lab1 cec-lab1 8980 Feb 11  2016 examples.desktop
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ ls -ltr
 total 132
 -rw-r--r-- 1 cec-lab1 cec-lab1 8980 Feb 11  2016 examples.desktop
@@ -94,15 +98,16 @@ drwxr-xr-x 2 cec-lab1 cec-lab1 4096 Feb 12  2016 [01;34mDocuments[0m
 -rw-rw-r-- 1 cec-lab1 cec-lab1    0 Feb 14 15:13 abc.txt
 -rw-rw-r-- 1 cec-lab1 cec-lab1  240 Feb 14 15:19 ceccs17d45.14.02.2019.txt
 -rw-rw-r-- 1 cec-lab1 cec-lab1 4096 Feb 14 15:21 ceccs17d45.07.02.2019.txt
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ ls -ltr[K[K[K[Kalias gpo[K='frep[K[K[K[Kgrep'
-ls: cannot access 'alias': No such file or directory
-ls: cannot access 'gp=grep': No such file or directory
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ alias[K[K[K[K[K
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ al;ias [K[K[K[K[Kias gp='frep[K[K[K[Kgreo[Kp'
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ alias dt='sort;[K'
+
+]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ alias gp='grep'
+
+]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ alias dt='sort'
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ unalias dt
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ cat new.txt
 arduino uno is more powerfull than arduino mega 2560.
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ cat>file1.txt
 1
 09
@@ -112,10 +117,7 @@ arduino uno is more powerfull than arduino mega 2560.
 233
 765
 076
-^C
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ grwe[K[Kep 0 file1.txt
-[01;31m[K0[m[K9
-[01;31m[K0[m[K76
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ sort -n file1.txt
 1
 4
@@ -125,6 +127,7 @@ arduino uno is more powerfull than arduino mega 2560.
 233
 333
 765
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ sort -n file1.txtk file1.txt6 file1.txt
 076
 09
@@ -134,18 +137,8 @@ arduino uno is more powerfull than arduino mega 2560.
 4
 55
 765
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ sort -nk6 file1.txt[C[1P file1.txt3 file1.txt
-076
-09
-1
-233
-333
-4
-55
-765
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ gre[K[K[Kgp 2 file1.txt
-[01;31m[K2[m[K33
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ gp 2 file1.txt[5@sort -nk3[C[C[C[C[C[C[C[C[C[C[1@r
+
+]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ sort -nk3
 765
 55
 4
@@ -154,35 +147,29 @@ arduino uno is more powerfull than arduino mega 2560.
 1
 09
 076
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ cat abc[K[K[K[K[Kt>abc.txt
+
+]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ cat>abc.txt
 college of engineering chengannur
-^C
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ 
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ cat>bcd.txt
-IHRD college inh  chengannur
-^C
+IHRD college in chengannur
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ paste abc.txt bcd.txt
 college of engineering chengannur	IHRD college in chengannur
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ grep -w abc.txt
 college of engineering chengannur
-^C
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ 
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ uname
 Linux
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ uname -a
 Linux ceclab1-Veriton-Series 4.15.0-39-generic #42~16.04.1-Ubuntu SMP Wed Oct 24 17:09:54 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ cut IHRD [K>[K >bcd.txt
-cut: you must specify a list of bytes, characters, or fields
-Try 'cut --help' for more information.
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ cut college>abc.txt
-cut: you must specify a list of bytes, characters, or fields
-Try 'cut --help' for more information.
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ grep -1[Kw abc.txt
-^C
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ man
 What manual page do you want?
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ man ls
-[?1049h[?1h=
+
 LS(1)                           User Commands                           LS(1)[m
 [m
 [1mNAME[0m[m
@@ -211,25 +198,30 @@ LS(1)                           User Commands                           LS(1)[m
               total        used        free      shared  buff/cache   available
 Mem:        1902820      805320      134324      230516      963176      663924
 Swap:       1954812        4620     1950192
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ grep -w college abc.txt
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ mv abc.txt bcd.txt
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ cat abc.txt
 cat: abc.txt: No such file or directory
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ cat bcd.txt
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ rm dir bcd.txt
-rm: cannot remove 'dir': No such file or directory
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ rmdir bcd.txt
-rmdir: failed to remove 'bcd.txt': No such file or directory
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ 
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ 
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ pwd
 /home/cec-lab1
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ mounnt[K[Kt/home/cec-lab1
 bash: mount/home/cec-lab1: No such file or directory
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ mkdir d1
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ mkdir d2
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ mkdir d3
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ rmdir d2
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ locate d1
 /boot/grub/i386-pc/gcry_rmd160.mod
 /boot/grub/i386-pc/mdraid1x.mod
@@ -673,6 +665,7 @@ bash: mount/home/cec-lab1: No such file or directory
 /var/tmp/systemd-private-4e11103e0a2c4d19bb06269071354b00-systemd-timesyncd.service-p5G165
 /var/tmp/systemd-private-cdebf7a499ef4d1e93ac424ce5d5518d-colord.service-GWwE3a
 /var/tmp/systemd-private-cdebf7a499ef4d1e93ac424ce5d5518d-rtkit-daemon.service-weSYBJ
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ locate d2
 /etc/brltty/Input/mt/bd2.ktb
 /etc/ssl/certs/75680d2e.0
@@ -1134,20 +1127,9 @@ bash: mount/home/cec-lab1: No such file or directory
 /var/tmp/systemd-private-69dd9344da8f4e0f87959e595be58d24-colord.service-zzaT5y
 /var/tmp/systemd-private-69dd9344da8f4e0f87959e595be58d24-fwupd.service-m3bTVo
 /var/tmp/systemd-private-69dd9344da8f4e0f87959e595be58d24-rtkit-daemon.service-2juAkE
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ find/ -d1
-bash: find/: No such file or directory
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ find/ -d1[C[1P -d1[C/-d1
-find: ‘/-d1’: No such file or directory
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ # find . -name tecmint.txt
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ cd\[K/Documents
-bash: cd/Documents: No such file or directory
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ cd..
-cd..: command not found
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ cd..desktop
-cd..desktop: command not found
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ 
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ 
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ 
+
+]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ cd ..
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ ifconfig
 enp0s25   Link encap:Ethernet  HWaddr 10:78:d2:e0:a8:00  
           inet addr:192.168.0.252  Bcast:192.168.0.255  Mask:255.255.255.0
@@ -1213,36 +1195,33 @@ where  OBJECT := { link | address | addrlabel | route | rule | neighbor | ntable
                     -l[oops] { maximum-addr-flush-attempts } | -br[ief] |
                     -o[neline] | -t[imestamp] | -ts[hort] | -b[atch] [filename] |
                     -rc[vbuf] [size] | -n[etns] name | -a[ll] | -c[olor]}
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ 
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ 
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ route
 Kernel IP routing table
 Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 default         192.168.0.2     0.0.0.0         UG    100    0        0 enp0s25
 link-local      *               255.255.0.0     U     1000   0        0 enp0s25
 192.168.0.0     *               255.255.255.0   U     100    0        0 enp0s25
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ 
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ 
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ routeadd default gw 192.168.0.2[K[K[K1.1
-routeadd: command not found
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ 
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ 
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ ifcponfig[1Ponfig[C[C[C[C[C etho[K0 192.168.0.2
-SIOCSIFADDR: Operation not permitted
-eth0: ERROR while getting interface flags: No such device
+
+]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ route add default gw 192.168.0.2
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ free
               total        used        free      shared  buff/cache   available
 Mem:        1902820      997860      244744      238848      660216      469448
 Swap:       1954812       26892     1927920
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ who
 cec-lab1 tty7         2019-02-14 14:23 (:0)
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ 
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ whoami
 cec-lab1
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ uin[K[Kname-[K -[K[K
+
+]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ uname
 Linux
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ uname-a -a
+
+]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ uname-a
 Linux ceclab1-Veriton-Series 4.15.0-39-generic #42~16.04.1-Ubuntu SMP Wed Oct 24 17:09:54 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ df
 Filesystem     1K-blocks    Used Available Use% Mounted on
 udev              921656       0    921656   0% /dev
@@ -1252,7 +1231,7 @@ tmpfs             951408   40220    911188   5% /dev/shm
 tmpfs               5120       4      5116   1% /run/lock
 tmpfs             951408       0    951408   0% /sys/fs/cgroup
 tmpfs             190284     116    190168   1% /run/user/1000
-]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ 
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ du
 4	./d3
 4	./.gnupg/private-keys-v1.d
@@ -1429,6 +1408,7 @@ du: cannot read directory './.cache/dconf': Permission denied
 4	./Documents
 4	./Downloads
 69852	.
+
 ]0;cec-lab1@ceclab1-Veriton-Series: ~[01;32mcec-lab1@ceclab1-Veriton-Series[00m:[01;34m~[00m$ exit
 exit
 
