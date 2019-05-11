@@ -35,9 +35,9 @@ cd ..
 
 
 printf  "SGPA OF S1\n\n" > s1/s1_result.txt
-join student_details/s4d_student_register_number_and_name.txt s1/result_one_per_line.txt | ./compute_gpa/compute_gpa >> s1/s1_result.txt
+join student_details/s4d_student_register_number_and_name.txt s1/result_one_per_line.txt | ./compute_gpa >> s1/s1_result.txt
 printf  "SGPA OF S2\n\n" > s2/s2_result.txt
-join student_details/s4d_student_register_number_and_name.txt s2/result_one_per_line.txt | ./compute_gpa/compute_gpa >> s2/s2_result.txt
+join student_details/s4d_student_register_number_and_name.txt s2/result_one_per_line.txt | ./compute_gpa >> s2/s2_result.txt
 
 
 ###### CGPA ######
@@ -48,4 +48,4 @@ then
 fi
 cd "$foldername"
 join ../s1/result_one_per_line.txt ../s2/result_one_per_line.txt > s1_s2_with_reg.txt
-join ../student_details/s4d_student_register_number_and_name.txt s1_s2_with_reg.txt | ../compute_gpa/compute_gpa > cgpa.txt
+join ../student_details/s4d_student_register_number_and_name.txt s1_s2_with_reg.txt | ../compute_gpa > cgpa.txt
